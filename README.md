@@ -17,3 +17,10 @@ code_pack_07 - def + print
 
 code_pack_08 - def + docstring
 
+code_pack_09 - read & write csv and txt
+
+code_pack_10 - webscraping
+
+code_pack_11 - python fundamentals 7 + flask + wraps
+
+code_pack_12 - 
