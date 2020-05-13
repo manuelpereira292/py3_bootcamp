@@ -1,7 +1,9 @@
 import sqlite3
 
+path = 'code_pack_16/1_unittest/mydatabase.db'
+
 def create_database():
-    conn = sqlite3.connect("mydatabase.db")
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     # create a table
@@ -34,7 +36,7 @@ def delete_artist(artist):
     """
     Delete an artist from the database
     """
-    conn = sqlite3.connect("mydatabase.db")
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     sql = """
@@ -51,7 +53,7 @@ def update_artist(artist, new_name):
     """
     Update the artist name
     """
-    conn = sqlite3.connect("mydatabase.db")
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     sql = """
@@ -69,7 +71,7 @@ def select_all_albums(artist):
     """
     Query the database for all the albums by a particular artist
     """
-    conn = sqlite3.connect("mydatabase.db")
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     sql = "SELECT * FROM albums WHERE artist=?"
