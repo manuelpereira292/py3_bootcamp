@@ -31,4 +31,12 @@ code_pack_14 - itertools (count, cycle, repeat, accumulate, chain, compress, dro
 
 code_pack_15 - 
 
+code_pack_16 - 
+
+code_pack_17 - 
+
+code_pack_18 - 
+
+code_pack_19 - 
+
 code_docs - extra documentation
