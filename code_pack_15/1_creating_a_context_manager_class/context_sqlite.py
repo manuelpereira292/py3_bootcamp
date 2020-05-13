@@ -24,6 +24,6 @@ class DataConn:
             raise
 
 if __name__ == '__main__':
-    db = 'test2.db'
+    db = 'code_pack_15/1_creating_a_context_manager_class/test1.db'
     with DataConn(db) as conn:
         cursor = conn.cursor()

@@ -29,7 +29,7 @@ code_pack_13 - iterators, generators
 
 code_pack_14 - itertools (count, cycle, repeat, accumulate, chain, compress, dropwhile, filterfalse, groupby, islice, starmap, takewhile, tee, zip_longest, combinations, combinations_with_replacement, permutations, product)
 
-code_pack_15 - 
+code_pack_15 - sqlite3, contextlib(contextmanager, closing, suppress, redirect_stdout, ExitStack, contextmanager)
 
 code_pack_16 - 
 

@@ -12,5 +12,5 @@ def file_open(path):
         f_obj.close()
 
 if __name__ == '__main__':
-    with file_open('test.txt') as fobj:
+    with file_open('code_pack_15/2_creating_a_context_manager_using_contextlib/test.txt') as fobj:
         fobj.write('Testing context managers')
