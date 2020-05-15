@@ -63,4 +63,12 @@ code_pack_30 - regression
 
 code_pack_31 - flask
 
+code_pack_extra_deeplearning
+
+code_pack_extra_wxpython
+
 code_docs - extra documentation
+
+code_docs_cheatsheet
+
+code_labs_slides

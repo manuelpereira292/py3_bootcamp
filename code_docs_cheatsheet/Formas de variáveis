@@ -1,0 +1,11 @@
+jupyter notebook 
+
+MinhaFuncao() - Upper Camel Case - Pascal Case
+
+minhaFuncao() - lower Camel Case
+
+minha-funcao() - kebab Case
+
+minha_funcao() - snake_case
+
+__minha_funcao__ - funções escondidas
