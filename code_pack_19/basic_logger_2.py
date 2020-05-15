@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(filename="sample.log", level=logging.INFO)
+logging.basicConfig(filename="code_pack_19/sample1.log", level=logging.INFO)
 log = logging.getLogger("ex")
 
 try:
@@ -10,6 +10,6 @@ except RuntimeError:
 
 # Let's use our file reading knowledge to 
 # read the log file
-with open("sample.log") as file_handler:
+with open("code_pack_19/sample1.log") as file_handler:
     for line in file_handler:
         print(line)

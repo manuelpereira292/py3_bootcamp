@@ -10,7 +10,7 @@ def main():
     logger.setLevel(logging.INFO)
 
     # create the logging file handler
-    fh = logging.FileHandler("new_snake.log")
+    fh = logging.FileHandler("code_pack_19/better_way/new_snake.log")
 
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s')

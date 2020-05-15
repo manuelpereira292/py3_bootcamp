@@ -8,6 +8,8 @@ def add(x, y):
  logger = logging.getLogger("exampleApp.otherMod2.add")
  logger.info("added %s and %s to get %s" % (x, y, x+y))
  return x+y
+
+
 def add2(x, y):
  """"""
  logger = logging.getLogger("exampleApp.otherMod2.add")

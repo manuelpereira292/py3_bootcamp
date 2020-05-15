@@ -31,12 +31,36 @@ code_pack_14 - itertools (count, cycle, repeat, accumulate, chain, compress, dro
 
 code_pack_15 - sqlite3, contextlib(contextmanager, closing, suppress, redirect_stdout, ExitStack, contextmanager)
 
-code_pack_16 - 
+code_pack_16 - unittest, coverage
 
-code_pack_17 - 
+code_pack_17 - argparse, configparser
 
-code_pack_18 - 
+code_pack_18 - benchmarking, profiling your code with cProfile
 
-code_pack_19 - 
+code_pack_19 - logging
+
+code_pack_20 - sys
+
+code_pack_21 - os
+
+code_pack_22 - threading, multiprocessing, the cryptography package
+
+code_pack_23 - databases (basic SQL syntax, object relational mappers)
+
+code_pack_24 - any, enumerate, eval, filter, map, zip
+
+code_pack_25 - numpy
+
+code_pack_26 - scipy
+
+code_pack_27 - matplotlib
+
+code_pack_28 - opencv
+
+code_pack_29 - pandas
+
+code_pack_30 - regression
+
+code_pack_31 - flask
 
 code_docs - extra documentation

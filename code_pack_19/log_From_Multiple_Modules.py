@@ -6,7 +6,7 @@ def main():
     """
     The main entry point of the application
     """
-    logging.basicConfig(filename="mySnake.log", level=logging.INFO)
+    logging.basicConfig(filename="code_pack_19/mySnake.log", level=logging.INFO)
     logging.info("Program started")
     result = otherMod.add(7, 8)
     logging.info("Done!")
@@ -43,7 +43,7 @@ def main():
     logger.setLevel(logging.INFO)
 
     # create the logging file handler
-    fh = logging.FileHandler("new_snake.log")
+    fh = logging.FileHandler("code_pack_19/new_snake.log")
 
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     fh.setFormatter(formatter)

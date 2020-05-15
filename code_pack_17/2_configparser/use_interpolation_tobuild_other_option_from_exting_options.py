@@ -15,5 +15,5 @@ def interpolationDemo(path):
 
 
 if __name__ == "__main__":
-    path = "settings.ini"
+    path = "code_pack_17/2_configparser/settings.ini"
     interpolationDemo(path)
