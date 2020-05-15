@@ -16,5 +16,4 @@ type(a)
 type(name)
 help(a)
 dir(a)
-
         
