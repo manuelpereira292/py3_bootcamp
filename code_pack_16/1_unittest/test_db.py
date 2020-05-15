@@ -3,6 +3,8 @@ import simple_db
 import sqlite3
 import unittest
 
+path = 'code_pack_16/1_unittest/mydatabase.db'
+
 class TestMusicDatabase(unittest.TestCase):
     """
     Test the music database
@@ -12,7 +14,7 @@ class TestMusicDatabase(unittest.TestCase):
         """
         Setup a temporary database
         """
-        conn = sqlite3.connect("mydatabase.db")
+        conn = sqlite3.connect(path)
         cursor = conn.cursor()
 
         # create a table
@@ -45,7 +47,7 @@ class TestMusicDatabase(unittest.TestCase):
         """
         Delete the database
         """
-        os.remove("mydatabase.db")
+        os.remove(path)
 
     def test_updating_artist(self):
         """
